@@ -178,6 +178,8 @@ npm install -g @stdlib/datasets-us-states-capitals-names
 
 </section>
 
+<!-- CLI usage documentation. -->
+
 <section class="usage">
 
 ### Usage
@@ -271,7 +273,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
