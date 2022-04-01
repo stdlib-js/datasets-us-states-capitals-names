@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/datasets-us-states-capitals-names",
+  "version": "0.0.0",
+  "description": "US state capitals and names.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-us-states-capitals-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "us",
+    "united",
+    "states",
+    "names",
+    "capitals",
+    "table",
+    "mapping",
+    "hash"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
