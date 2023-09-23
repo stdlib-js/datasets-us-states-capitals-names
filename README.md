@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-us-states-capitals-names/tags). For example,
+
+```javascript
 import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.1.0-deno/mod.js';
 ```
 
@@ -119,7 +124,7 @@ var t = table();
 
 ```javascript
 import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-capitalize@deno/mod.js';
-import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.1.0-deno/mod.js';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@deno/mod.js';
 
 var tbl = table();
 
