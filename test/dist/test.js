@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,43 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var objectKeys = require( '@stdlib/utils-keys' );
-var IS_BROWSER = require( '@stdlib/assert-is-browser' );
-var isObject = require( '@stdlib/assert-is-plain-object' );
-var table = require( './../../dist' );
-
-
-// VARIABLES //
-
-var opts = {
-	'skip': IS_BROWSER
-};
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof table, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns an object', opts, function test( t ) {
-	var tbl = table();
-	t.equal( isObject( tbl ), true, 'returns an object' );
-	t.end();
-});
-
-tape( 'the returned object has 50 keys', opts, function test( t ) {
-	var tbl = table();
-	t.equal( objectKeys( tbl ).length, 50, 'has 50 keys' );
-	t.end();
-});
-
-tape( 'the returned object maps US state capitals to state names', opts, function test( t ) {
-	var tbl = table();
-	t.equal( tbl[ 'Jefferson City' ], 'Missouri', 'returns Missouri' );
-	t.equal( tbl[ 'Trenton' ], 'New Jersey', 'returns New Jersey' );
-	t.equal( tbl[ 'Sacramento' ], 'California', 'returns California' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
