@@ -35,31 +35,14 @@ limitations under the License.
 
 > US state capitals and names.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/datasets-us-states-capitals-names
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var table = require( '@stdlib/datasets-us-states-capitals-names' );
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@esm/index.mjs';
 ```
 
 #### table()
@@ -134,9 +117,14 @@ var t = table();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var capitalize = require( '@stdlib/string-capitalize' );
-var table = require( '@stdlib/datasets-us-states-capitals-names' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-capitalize@esm/index.mjs';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@esm/index.mjs';
 
 var tbl = table();
 
@@ -168,79 +156,17 @@ console.log( getState( 'Trenton' ) );
 
 console.log( getState( 'Sacramento' ) );
 // => 'California'
+
+</script>
+</body>
+</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use as a general utility, install the CLI package globally
-
-```bash
-npm install -g @stdlib/datasets-us-states-capitals-names-cli
-```
-
-</section>
-
-<!-- CLI usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: us-states-capitals-names [options]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="notes">
-
-### Notes
-
--   Data is written to `stdout` as comma-separated values ([CSV][csv]), where the first line is a header line.
-
-</section>
-
-<!-- /.notes -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ us-states-capitals-names
-capital,name
-Montgomery,Alabama
-Juneau,Alaska
-Phoenix,Arizona
-...
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- <license> -->
 
@@ -275,7 +201,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -342,11 +268,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/us-states-capitals]: https://github.com/stdlib-js/datasets-us-states-capitals
+[@stdlib/datasets/us-states-capitals]: https://github.com/stdlib-js/datasets-us-states-capitals/tree/esm
 
-[@stdlib/datasets/us-states-names]: https://github.com/stdlib-js/datasets-us-states-names
+[@stdlib/datasets/us-states-names]: https://github.com/stdlib-js/datasets-us-states-names/tree/esm
 
-[@stdlib/datasets/us-states-names-capitals]: https://github.com/stdlib-js/datasets-us-states-names-capitals
+[@stdlib/datasets/us-states-names-capitals]: https://github.com/stdlib-js/datasets-us-states-names-capitals/tree/esm
 
 <!-- </related-links> -->
 
