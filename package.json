@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-us-states-capitals-names",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "US state capitals and names.",
   "license": "Apache-2.0",
   "author": {
@@ -43,10 +43,10 @@
   },
   "dependencies": {
     "@stdlib/cli-ctor": "^0.1.1",
-    "@stdlib/fs-read-file": "^0.1.1",
-    "@stdlib/fs-read-json": "^0.1.1",
-    "@stdlib/streams-node-stdout": "^0.1.1",
-    "@stdlib/utils-copy": "^0.1.0"
+    "@stdlib/fs-read-file": "^0.2.0",
+    "@stdlib/fs-read-json": "^0.2.0",
+    "@stdlib/streams-node-stdout": "^0.2.0",
+    "@stdlib/utils-copy": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.1",
