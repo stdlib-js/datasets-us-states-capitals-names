@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-table = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@umd/browser.js' )
+table = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var table = require( 'path/to/vendor/umd/datasets-us-states-capitals-names/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -146,7 +146,7 @@ var t = table();
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-capitalize@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
