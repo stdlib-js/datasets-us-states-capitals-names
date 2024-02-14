@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@esm/index.mjs';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.2.0-esm/index.mjs';
 ```
 
 #### table()
@@ -124,7 +124,7 @@ var t = table();
 <script type="module">
 
 import capitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-capitalize@esm/index.mjs';
-import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@esm/index.mjs';
+import table from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-capitals-names@v0.2.0-esm/index.mjs';
 
 var tbl = table();
 
