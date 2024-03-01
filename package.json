@@ -54,12 +54,12 @@
     "@stdlib/assert-is-windows": "^0.2.1",
     "@stdlib/process-exec-path": "^0.2.1",
     "@stdlib/string-capitalize": "^0.2.1",
-    "@stdlib/utils-keys": "^0.2.0",
+    "@stdlib/utils-keys": "^0.2.1",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.0"
+    "@stdlib/bench-harness": "^0.2.1"
   },
   "engines": {
     "node": ">=0.10.0",
