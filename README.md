@@ -138,6 +138,7 @@ var t = table();
 
 ```javascript
 var capitalize = require( '@stdlib/string-capitalize' );
+var format = require( '@stdlib/string-format' );
 var table = require( '@stdlib/datasets-us-states-capitals-names' );
 
 var tbl = table();
@@ -157,7 +158,7 @@ function getState( capital ) {
 
     // Ensure a valid capital name was provided...
     if ( state === void 0 ) {
-        throw new Error( 'unrecognized capital. Value: `' + capital + '`.' );
+        throw new Error( format( 'unrecognized capital. Value: `%s`.', capital ) );
     }
     return state;
 }
